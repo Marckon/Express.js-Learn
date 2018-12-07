@@ -7,5 +7,8 @@ router.get('/', function(req, res, next) {
 });
 router.get('/books/:bookId',(req,res)=>res.send(`your bookId is ${req.params.bookId}`));
 router.get('/flight/:from-:to',(req,res)=>res.send(`you're flying from ${req.params.from} to ${req.params.to}`));
+router.get('/seeTime',(req,res)=>{
+  res.send(`your request time is <small>${req.reqTime}</small>`)
+})
 
 module.exports = router;
