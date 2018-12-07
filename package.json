@@ -1,0 +1,22 @@
+{
+  "name": "express-learn",
+  "version": "1.0.0",
+  "description": "- 👨‍💻 Only for personal use\r ---",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marckon/Express.js-Learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Marckon/Express.js-Learn/issues"
+  },
+  "homepage": "https://github.com/Marckon/Express.js-Learn#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
